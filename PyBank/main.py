@@ -8,3 +8,4 @@ with open(csvpath, newline='') as csvfile:
     print(f"CSV Header: {csv_header}")
     for row in csvreader:
         print(row)
+        
