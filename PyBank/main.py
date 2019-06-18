@@ -48,8 +48,8 @@ with open(output_file, "w") as txt_file:
     #trying to add space with the \n, but getting syntax error. 
     txt_file.write("Financial Analysis \n")
     txt_file.write("--------------------------------------- \n")
-    txt_file.write("Total Months:  + str(total_months) \n" )
-    txt_file.write("Total Revenue: $ + str(total_revenue) \n" )
-    txt_file.write("Average Revenue Change: $ + str(average_change) \n")
+    txt_file.write("Total Months: "  + str(total_months) + "\n")
+    txt_file.write("Total Revenue: " + "($" + str(total_revenue) +") \n" )
+    txt_file.write("Average Revenue Change: " + "($" + str(average_change) +") \n")
     txt_file.write("Greatest Increase in Revenue: "  + great_inc_month + " ($" + str(greatest_inc) +") \n")
     txt_file.write("Greatest Decrease in Revenue: " + great_dec_month + " ($" + str(greatest_dec)+ ")")
