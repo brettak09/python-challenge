@@ -18,7 +18,7 @@ with open(csvpath, newline="") as csvfile:
         revenue.append(int(row[1]))
 #Count all the months, basically counting rows and skipping the header per above.
 total_months = len(months)
-#careate greatest increase, decrease variable and set them equal to the first revenue entery
+#create greatest increase, decrease variable and set them equal to the first revenue entery
 #set total revenue = 0
 greatest_inc = revenue[0]
 greatest_dec = revenue[0]

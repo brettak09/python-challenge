@@ -56,7 +56,7 @@ if len(winner_list) > 1:
         winner = winner + ", " + winner_list[w]
 
 #prints to file
-output_file = os.path.join("PyPoll.txt")
+output_file = os.path.join("PyPolltest.txt")
 
 with open(output_file, "w") as txt_file:
     txt_file.writelines('Election Results \n------------------------- \nTotal Votes: ' + str(total_votes) + 
