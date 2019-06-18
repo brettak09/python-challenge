@@ -1,0 +1,7 @@
+Financial Analysis 
+--------------------------------------- 
+Total Months:  + str(total_months) 
+Total Revenue: $ + str(total_revenue) 
+Average Revenue Change: $ + str(average_change) 
+Greatest Increase in Revenue: Feb-2012 ($1170593) 
+Greatest Decrease in Revenue: Sep-2013 ($-1196225)
