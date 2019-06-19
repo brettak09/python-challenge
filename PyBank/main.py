@@ -45,7 +45,8 @@ print("Greatest Decrease in Revenue: " + great_dec_month + " ($" + str(greatest_
 output_file = os.path.join("PyBank.txt")
 #write to file
 with open(output_file, "w") as txt_file:
-    #trying to add space with the \n, but getting syntax error. 
+#Write to text file, us\n to get to the next line
+#this took forever:)
     txt_file.write("Financial Analysis \n")
     txt_file.write("--------------------------------------- \n")
     txt_file.write("Total Months: "  + str(total_months) + "\n")
