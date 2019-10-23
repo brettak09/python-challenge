@@ -4,7 +4,7 @@ import csv
 from tqdm import tqdm
 #total votes, how many for each person
 from collections import Counter
-csvpath = os.path.join("..", "Data", "pythonassign3", "election_data.csv")
+csvpath = os.path.join("..", "Data", "election_data.csv")
 #Creates dictionary to be used for candidate name and vote count.
 poll = {}
 

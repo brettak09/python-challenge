@@ -7,7 +7,7 @@ from collections import Counter
 months =[]
 revenue = []
 #open budget_data.csv
-csvpath = os.path.join("..", "Data", "pythonassign3", "budget_data.csv")
+csvpath = os.path.join("..", "Data", "budget_data.csv")
 with open(csvpath, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     #print(csvreader)
