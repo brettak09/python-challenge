@@ -32,7 +32,7 @@ Both projects require reading of CSV data, using fundamental python language too
 - Python
 - TDQM package 
 - Collections package
--Modules
+- Modules
     - os
     - read/write csv
 
